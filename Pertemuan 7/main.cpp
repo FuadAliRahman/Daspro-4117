@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    cout << "Masukkan Jurusan Anda ";
     int a;
     cin >> a;
 
@@ -14,7 +15,7 @@ int main()
     } else if ( a == 3){
         cout << "DKV";
     }else{
-        cout << "Jurusan anda belum terdaftar/Nomor yang anda masukkan salah";
+        cout << "Jurusan anda tidak diketahui";
     }
     return 0;
 }
